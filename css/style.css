@@ -190,7 +190,7 @@ hr {
     height: 100%;
     color: #f9fafa;
     text-align: center;
-    background-image: url(/img/banner.jpg);
+    background-image: url(/img/banner_sm.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: none;
@@ -594,6 +594,9 @@ hr {
         --nvh: 8vh;
         --nvh: calc(var(--mv1) * 8);
     }
+    .banner-content {
+        background-image: url(/img/banner_md.jpg);
+    }
     .countdown-clock {
         width: 80%;
         margin-left: auto;
@@ -820,6 +823,9 @@ hr {
         line-height: 100%;
         width: auto;
         height: 100%;
+    }
+    .banner-content {
+        background-image: url(/img/banner_lg.jpg);
     }
     .banner-content hr {
         width: 40%;
