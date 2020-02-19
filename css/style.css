@@ -791,8 +791,6 @@ hr {
     :root {
         font-size: 16px;
         font-size: calc(8px + var(--mv1));
-        --nvh: 6vh;
-        --nvh: calc(var(--mv1) * 6);
     }
     .navbar {
         padding: 0 1em;
