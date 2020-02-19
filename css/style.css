@@ -16,7 +16,9 @@ Light Gray: #f9fafa */
 :root {
     --mh1: 1vw;
     --mv1: 1vh;
+    --nvh: 10vh;
     --nvh: calc(var(--mv1) * 10);
+    --fvh: 100vh;
     --fvh: calc(var(--mv1) * 100);
     font-size: 18px;
     font-size: calc(11px + 1vh);
@@ -864,7 +866,10 @@ hr {
 /* Desktops */
 
 @media (min-width: 1440px) {
-    
+    :root {
+        --nvh: 6vh;
+        --nvh: calc(var(--mv1) * 6);
+    }
     .countdown-clock {
         width: 40%;
     }
