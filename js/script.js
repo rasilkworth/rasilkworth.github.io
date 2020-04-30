@@ -172,7 +172,7 @@ function smoothScroll(link) {
 // COUNTDOWN TO IMPORTANT DATE 
 function countdown() {
     // IMPORTANT DATE
-    const stopDate = Date.parse(new Date("April 28, 2020 07:00:00 GMT-5").toUTCString());
+    const stopDate = Date.parse(new Date("November 3, 2020 07:00:00 GMT-5").toUTCString());
         // TODAY
         let startDate = Date.parse(new Date().toUTCString());
         // DIFFERENCE BETWEEN DATES
